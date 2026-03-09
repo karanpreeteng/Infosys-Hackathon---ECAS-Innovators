@@ -1,0 +1,41 @@
+{
+  "required" : [ "Input:File", "Input:Question", "Input:Case" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Input:File" : {
+      "title" : "File",
+      "description" : "latest attachment for the case record",
+      "lightning:type" : "lightning__recordInfoType",
+      "lightning:sObjectInfo" : {
+        "apiName" : "ContentDocument"
+      },
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "Input:Question" : {
+      "title" : "Question",
+      "description" : "prompt input by the customer",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "Input:Case" : {
+      "title" : "Case",
+      "description" : "Case record related to the disaster",
+      "lightning:type" : "lightning__recordInfoType",
+      "lightning:sObjectInfo" : {
+        "apiName" : "Case"
+      },
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "citationMode" : {
+      "title" : "Citation Mode",
+      "description" : "Select Citation Mode",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

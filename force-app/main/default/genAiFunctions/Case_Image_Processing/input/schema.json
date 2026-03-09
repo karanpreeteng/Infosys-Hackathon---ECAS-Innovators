@@ -1,0 +1,34 @@
+{
+  "required" : [ "Input:File", "Input:Case" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Input:File" : {
+      "title" : "File",
+      "description" : "Identify the disaster type from image and share the details.",
+      "lightning:type" : "lightning__recordInfoType",
+      "lightning:sObjectInfo" : {
+        "apiName" : "ContentDocument"
+      },
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "Input:Case" : {
+      "title" : "Case",
+      "description" : "Check Case description for disaster location information.",
+      "lightning:type" : "lightning__recordInfoType",
+      "lightning:sObjectInfo" : {
+        "apiName" : "Case"
+      },
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "citationMode" : {
+      "title" : "Citation Mode",
+      "description" : "Select Citation Mode",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

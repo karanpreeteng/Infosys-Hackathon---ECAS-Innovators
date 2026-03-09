@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Posts a message to a specific Slack channel and returns success status</description>
+    <invocationTarget>SlackMessagePost</invocationTarget>
+    <invocationTargetType>apex</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+    <masterLabel>Post Slack Message</masterLabel>
+    <progressIndicatorMessage>Sending Message</progressIndicatorMessage>
+</GenAiFunction>

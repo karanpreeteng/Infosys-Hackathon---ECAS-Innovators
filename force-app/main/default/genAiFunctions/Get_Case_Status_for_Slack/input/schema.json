@@ -1,0 +1,31 @@
+{
+  "required" : [ "Input:Case", "Input:Question" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Input:Case" : {
+      "title" : "Case",
+      "description" : "Case record",
+      "lightning:type" : "lightning__recordInfoType",
+      "lightning:sObjectInfo" : {
+        "apiName" : "Case"
+      },
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "Input:Question" : {
+      "title" : "Question",
+      "description" : "Prompt from Customer",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "citationMode" : {
+      "title" : "Citation Mode",
+      "description" : "Select Citation Mode",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

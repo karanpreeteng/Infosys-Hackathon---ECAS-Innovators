@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Gets Case record using case number</description>
+    <invocationTarget>Get_Case_by_Case_Number</invocationTarget>
+    <invocationTargetType>flow</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+    <masterLabel>Get Case by Case Number</masterLabel>
+    <progressIndicatorMessage>Getting details</progressIndicatorMessage>
+</GenAiFunction>
