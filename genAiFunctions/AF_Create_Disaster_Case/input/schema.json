@@ -1,0 +1,38 @@
+{
+  "required" : [ "Contact", "Description", "DisasterZipcode", "Subject" ],
+  "unevaluatedProperties" : false,
+  "properties" : {
+    "Contact" : {
+      "title" : "Contact",
+      "description" : "Identified Contact Record",
+      "lightning:type" : "lightning__recordInfoType",
+      "lightning:sObjectInfo" : {
+        "apiName" : "Contact"
+      },
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "Description" : {
+      "title" : "Description",
+      "description" : "Description for the case",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "DisasterZipcode" : {
+      "title" : "DisasterZipcode",
+      "description" : "Zipcode registered for disaster",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    },
+    "Subject" : {
+      "title" : "Subject",
+      "description" : "Subject for Creating disaster case",
+      "lightning:type" : "lightning__textType",
+      "lightning:isPII" : false,
+      "copilotAction:isUserInput" : false
+    }
+  },
+  "lightning:type" : "lightning__objectType"
+}

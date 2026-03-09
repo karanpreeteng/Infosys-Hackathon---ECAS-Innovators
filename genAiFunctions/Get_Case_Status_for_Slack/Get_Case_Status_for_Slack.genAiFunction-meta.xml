@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Provides latest updates on disaster from case record</description>
+    <invocationTarget>Get_Case_Status_for_Slack</invocationTarget>
+    <invocationTargetType>generatePromptResponse</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+    <masterLabel>Get Case Status for Slack</masterLabel>
+    <progressIndicatorMessage>Getting updates</progressIndicatorMessage>
+</GenAiFunction>

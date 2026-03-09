@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiFunction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Analyze and Fetch the disaster details from the case details and file attached with the case.</description>
+    <invocationTarget>Case_Image_Processing_Feature</invocationTarget>
+    <invocationTargetType>generatePromptResponse</invocationTargetType>
+    <isConfirmationRequired>false</isConfirmationRequired>
+    <isIncludeInProgressIndicator>true</isIncludeInProgressIndicator>
+    <masterLabel>Case Image Processing Feature</masterLabel>
+    <progressIndicatorMessage>Retrieving details</progressIndicatorMessage>
+</GenAiFunction>
