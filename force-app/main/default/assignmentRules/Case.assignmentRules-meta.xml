@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <assignmentRule>
-        <fullName>Standard</fullName>
+        <fullName>Emergency Case Assignment</fullName>
         <active>true</active>
+        <ruleEntry>
+            <assignedTo>ankush.rana02@infosys.com.agentforce</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.Disaster_Zipcode__c</field>
+                <operation>equals</operation>
+                <value>76209</value>
+            </criteriaItems>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>Standard</fullName>
+        <active>false</active>
         <ruleEntry>
             <assignedTo>epic.3acbcad70c26@orgfarm.com</assignedTo>
             <assignedToType>User</assignedToType>
